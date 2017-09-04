@@ -1,0 +1,16 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ali",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.6.0",
+    "chartjs-plugin-annotation": "^0.5.5",
+    "moment": "^2.18.1"
+  }
+}

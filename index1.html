@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div>
+        <canvas class="line" id="myChart"></canvas>
+        <div class="chartjs-tooltip" id="chartjs-tooltip"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="btn-box">
+        <button class="btn" id="randomizeData" data-period="1-week">Неделя</button>
+        <button class="btn" data-period="1-month">Месяц</button>
+        <button class="btn active" data-period="3-month">3 месяца</button>
+    </div>
+</div>
+<script src="node_modules/moment/min/moment.min.js"></script>
+<script src="node_modules/chart.js/dist/Chart.js"></script>
+<script src="node_modules/chartjs-plugin-annotation/chartjs-plugin-annotation.min.js"></script>
+<script src="js/chart.js" rel="script"></script>
+</body>
+</html>
